@@ -1,0 +1,21 @@
+/* ... Otros estilos CSS ... */
+
+/* Estilo para los botones del carrusel */
+.carousel-control-prev,
+.carousel-control-next {
+    font-size: 1rem; /* Tamaño de fuente más pequeño para los botones */
+    width: 20px; /* Ancho más pequeño para los botones */
+    height: 20px; /* Altura más pequeña para los botones */
+    opacity: 0.7; /* Opacidad reducida para los botones */
+    background-color: #343a40; /* Color de fondo de los botones del carrusel */
+    border: none; /* Sin borde en los botones */
+    border-radius: 50%; /* Borde redondeado para hacer que los botones sean circulares */
+    transition: opacity 0.2s ease-in-out; /* Transición de opacidad suave */
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    opacity: 0.9; /* Opacidad aumentada al pasar el mouse por encima de los botones */
+}
+
+/* ... Otros estilos CSS ... */

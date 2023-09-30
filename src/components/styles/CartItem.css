@@ -1,0 +1,45 @@
+/* Estilo para el contenedor del artículo del carrito */
+.cart-item {
+    background-color: #343a40;
+    border: 1px solid #454d55;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Estilo para el nombre del artículo */
+.item-name {
+    font-size: 18px;
+    color: #fff;
+    margin: 0;
+}
+
+/* Estilo para el precio del artículo */
+.item-price {
+    color: #ccc;
+    margin: 0;
+}
+
+/* Estilo para la cantidad del artículo */
+.item-quantity {
+    color: #ccc;
+    margin: 0;
+}
+
+/* Estilo para el botón de eliminación */
+.remove-button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.remove-button:hover {
+    background-color: #c82333;
+}

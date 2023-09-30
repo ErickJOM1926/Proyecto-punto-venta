@@ -1,0 +1,55 @@
+/* Estilo para el contenedor del carrito de compras */
+.shopping-cart {
+    background-color: #343a40;
+    /* Fondo oscuro */
+    color: #fff;
+    /* Texto blanco */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+    text-align: left; /* Alinea el contenido a la izquierda */
+}
+
+/* Estilo para el título del carrito */
+.cart-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: left; /* Alinea el título a la izquierda */
+}
+
+/* Estilo para la lista de elementos del carrito */
+.cart-items {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Estilo para cada elemento del carrito */
+.cart-items li {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #454d55;
+    /* Fondo gris oscuro */
+}
+
+/* Estilo para el botón de eliminar */
+.cart-items li button {
+    background-color: #ff6347;
+    /* Rojo oscuro */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+/* Estilo para el botón de eliminar al pasar el mouse */
+.cart-items li button:hover {
+    background-color: #ff4831;
+    /* Rojo más oscuro al pasar el mouse */
+}

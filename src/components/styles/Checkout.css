@@ -1,0 +1,88 @@
+Form {
+    padding: 10px;
+}
+
+/* Estilo para el componente Checkout */
+.checkout {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Estilo para el título del componente Checkout */
+.checkout-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Estilo para el subtítulo del componente Checkout */
+.checkout-subtitle {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Estilo para la lista de artículos en el componente Checkout */
+.checkout-items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Estilo para cada artículo en la lista de artículos */
+.checkout-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+/* Estilo para el nombre del artículo en el componente Checkout */
+.item-name {
+    flex: 1;
+    text-align: left;
+    font-weight: bold;
+    color: slategray;
+}
+
+/* Estilo para el precio del artículo en el componente Checkout */
+.item-price {
+    flex: 1;
+    text-align: right;
+    font-weight: bold;
+}
+
+/* Estilo para la cantidad del artículo en el componente Checkout */
+.item-quantity {
+    flex: 1;
+    text-align: right;
+}
+
+/* Estilo para el botón de confirmar pedido en el componente Checkout */
+.checkout-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+/* Estilo para el botón de confirmar pedido en el componente Checkout al pasar el mouse */
+.checkout-button:hover {
+    background-color: #0056b3;
+}
+
+.label {
+    color: black;
+}
